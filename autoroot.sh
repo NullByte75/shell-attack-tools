@@ -2,7 +2,7 @@
 set -x                                                                             
 
 # if local program 'foo' returns 1 (doesn't exist) then...                                                                               
-if ! type -P foo; then                                                             
+if ! type -P gcc; then                                                             
     echo 'crap, no gcc, exiting'
     exit 1
 else                                                                               
